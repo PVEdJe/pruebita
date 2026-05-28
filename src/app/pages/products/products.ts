@@ -1,8 +1,10 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
+import { Root } from 'postcss';
 
 @Component({
   selector: 'app-products',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './products.html',
   styles: `
     :host {
